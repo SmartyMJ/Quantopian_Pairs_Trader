@@ -17,8 +17,6 @@ This is my implementation of a Pairs Trading Algorithm on the algorithmic tradin
 ## Current Results
 Currently, my implementation will be able to run on an arbitrary number of possible pairs that a user could provide. I ran regressions to identify one cointegrated pair per each of the eleven sectors. The trading algorithm is iniatilized with these eleven pairs.
 
-![Tearsheet from Backtest](https://github.com/SmartyMJ/Quantopian_Pairs_Trader/blob/master/Backtest.png)
-
 ## Issues/Next Steps
 * Reduce the drawdown and beta and get the leveraging under control.
 * Increasing alpha
@@ -26,3 +24,6 @@ Currently, my implementation will be able to run on an arbitrary number of possi
 * Haven't looked at using Kalman filters for determining hedge ratios. Not sure if I need to or if the way I did it sufficient.
 * Need to look into how Quantopian's `order_target_percent` function works when I have several different pairs and not one or two (e.g. will the first opening order take up my entire portfolio?).
 * Implement KPSS stationarity test
+
+## Tearsheet from Backtest of Algorithm
+![Tearsheet from Backtest](https://github.com/SmartyMJ/Quantopian_Pairs_Trader/blob/master/Backtest.png)
