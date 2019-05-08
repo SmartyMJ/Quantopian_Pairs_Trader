@@ -17,6 +17,8 @@ This is my implementation of a Pairs Trading Algorithm on the algorithmic tradin
 ## Current Results
 Currently, my implementation will be able to run on an arbitrary number of possible pairs that a user could provide. I ran regressions to identify one cointegrated pair per each of the eleven sectors. The trading algorithm is iniatilized with these eleven pairs.
 
+![Tearsheet from Backtest](https://github.com/SmartyMJ/Quantopian_Pairs_Trader/blob/master/Backtest.png)
+
 ## Issues/Next Steps
 * Reduce the drawdown and beta and get the leveraging under control.
 * Increasing alpha
