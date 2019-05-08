@@ -12,7 +12,10 @@ This is my implementation of a Pairs Trading Algorithm on the algorithmic tradin
 ## Current Results
 Currently, my implementation will be able to run on arbitrary amount of possible pairs that a user could provide. I ran regressions to identify one cointegrated pair per each of the eleven sectors. The trading algorithm is iniatilized with these eleven pairs.
 
-![Current Results Graph](https://raw.githubusercontent.com/bartchr808/Quantopian_Pairs_Trader/master/current_results.png "Current Results Graph")
+## Algorithms
+* 'Systematic Pairs Trading Algo.py' is my updated pairs trading algorithm
+* 'Find Cointegrated Pairs.ipynb' is a Jupyter notebook with code to select the 11 optimal pairs
+* 'algo.py' is bartchr808's original algorithm. (There were some errors and bugs within this algorithm, but it provided a great starting point from which to build.)
 
 ## Issues/Next Steps
 * Reduce the drawdown and beta and get the leveraging under control.
